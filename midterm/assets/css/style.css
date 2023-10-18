@@ -1,0 +1,365 @@
+body{
+    background-color:#EED9AC;
+    overflow-y: scroll;
+    
+}
+
+
+.restaurant-name {
+    background-color: #FFD030;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 5;
+    left: 5;
+    padding: 10px;
+    border-radius: 30px; 
+}
+
+.toolbar{
+    display:flex;
+    flex-direction:row;
+    margin-left: 350px;
+}
+
+.toolbar h2 {
+    margin-right: 100px; 
+    line-height: 60px;
+}
+
+.OrderButton{
+    background-color: #CDB189;
+    width: 50;
+    height: 25;
+    position: absolute;
+    top: 1%;
+    right: .5%;
+    padding: 10px;
+    border-radius: 30px; 
+}
+
+
+.BottomInfo{
+    background-color:#CDB189;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+    
+
+
+
+.BottomInfo h5{
+    white-space: nowrap;
+    margin-left:25;
+    margin-right: 25px;
+    
+    
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    height: 500px;
+    width: 1350px
+    
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 10%; 
+    left: 10px; 
+    color: #fff; 
+    background-color:#CDB189 ;
+    padding: 10px; 
+    font-size: 50px; 
+    text-align: left;
+    max-width: 35%;
+  }
+
+  .overlay-text2{
+    position: absolute;
+    top: 60%; 
+    left: 10px; 
+    color: #fff; 
+    background-color:#518554 ;
+    padding: 10px; 
+    font-size: 50px; 
+    text-align: left;
+    max-width: 35%;
+
+  }
+
+
+.box {
+    background-color: #CDB189;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+}
+
+.box img, .image-container2 img {
+    height: 300px;
+    width: 300px;
+}
+
+.image-container2 {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container2 img {
+    width: auto;
+    max-width: 100%;
+}
+
+
+.overlay-text3{
+    position: absolute;
+    top: 80%; 
+    left: 10px; 
+    color: #fff; 
+    padding: 10px; 
+    font-size: 40px; 
+    text-align: left;
+    max-width: 35%;
+    z-index:2;
+  }
+
+.overlay-text4{
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    background-color: #518554;
+    padding: 10px;
+    font-size: 30px; 
+    text-align: left;
+    max-width: 35%;
+    z-index:1;
+}
+
+
+.promosection{
+    background-color:#D3E2E9;
+    width: 550px;
+    height: 40px;
+    position: absolute;
+    left: 30%;
+    top: 13%;
+    padding:10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    
+
+}
+
+.image-container3{
+    position: absolute;
+    top: 13%;
+    left: 82%;
+}
+
+.image-container3 img {
+    width: 70px;
+}
+
+.verticalmenu {
+    margin-top: 50px; 
+}
+
+.verticalmenu h2 {
+    font-size: 32px; 
+    color: black; 
+}
+
+.verticalmenu h3 {
+    font-size: 24px; 
+    color: black; 
+}
+
+
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.menu-container1 {
+    background-color: #CDB189;
+    width: 300px;
+    height: 200px;
+    margin-top: -190px;
+    padding: 10px;
+    text-align: center;
+    margin-left:200px;
+}
+.menu-container2 {
+    background-color: #CDB189;
+    width: 300px;
+    height: 200px;
+    margin-top: -190px;
+    padding: 10px;
+    text-align: center;
+}
+.menu-container3 {
+    background-color: #CDB189;
+    width: 300px;
+    height: 200px;
+    margin-top: -190px;
+    padding: 10px;
+    text-align: center;
+}
+.menu-container4 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+.menu-container5 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.menu-container6 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.menu-container7 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left:200px;
+
+}
+.menu-container8 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.menu-container9 {
+    background-color: #CDB189;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.menu-container1 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container2 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container3 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container4 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container5 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container6 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container7 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container8 img {
+    width: 300px;
+    height: 170px;
+}
+.menu-container9 img {
+    width: 300px;
+    height: 170px;
+}
+
+.menu-container1 h3, .menu-container1 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+.menu-container2 h3, .menu-container2 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+
+.menu-container3 h3, .menu-container3 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+
+.menu-container4 h3, .menu-container4 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+
+
+
+.menu-container5 h3, .menu-container5 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+
+.menu-container6 h3, .menu-container6 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+.menu-container7 h3, .menu-container7 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+.menu-container8 h3, .menu-container8 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
+.menu-container9 h3, .menu-container9 h4 {
+    display: inline;
+    margin: 1px; 
+    font-size: 30px; 
+}
