@@ -35,6 +35,7 @@ header {
 .image-card, .image-card-color-overlay {
     width: 380px;
     height: 200px;
+    margin-bottom: 100px;
 }
 
 .image-card {
@@ -106,9 +107,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Tangerine', serif;
+    font-family: 'Inria', serif;
     font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Inria, 'Times New Roman', Times, serif;
     font-weight:lighter;
     color:black;
     margin: 20px;

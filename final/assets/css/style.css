@@ -1,0 +1,270 @@
+body{
+    background-color:#e9e9e9;
+    overflow-y: scroll;
+    
+}
+
+
+
+.name_logo{
+    font-family: 'Inria', serif;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 5;
+    left: 5;
+    padding: 10px;
+    border-radius: 30px; 
+}
+
+.toolbar{
+    display:flex;
+    flex-direction:row;
+    margin-left: 1000px;
+}
+
+.toolbar h2 {
+    margin-right: 100px; 
+    line-height: 60px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 420px;
+    height: 240px;    
+    margin-top: 50px;
+   
+
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 60px;
+    position: relative;
+
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: rgb(217, 217, 219);
+}
+
+.image-card:hover .image-card-color-overlay {
+    opacity: 0.7;
+   
+}
+
+.image-card-text {
+    position: absolute;
+    bottom:0;
+    left:0;
+    color: white;
+
+}
+
+
+.bigname{
+    text-align:center;    
+    margin-top: 150px;
+}
+
+.container .image-card-eqx{
+    position: relative; 
+  }
+  
+  .eqxintrotext {
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  
+  .image-card-eqx1{
+    position: absolute;
+    height:650px;
+    width:600px;
+    top:500px;
+    right: 100px;
+    margin-left:780px;
+  }
+  .image-card-eqx1 img {
+    width: 100%;
+
+
+}
+
+.container .image-card-eqx2{
+    position: relative; 
+  }
+  
+  .eqxbodytext {
+    position: absolute;
+    top: 1100px;
+    right: 100px;
+    margin-left:780px;
+    
+  }
+  
+  .image-card-eqx2{
+    position: absolute;
+    height:550px;
+    width:500px;
+    top:900px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  .image-card-eqx2 img {
+    width: 100%;
+
+
+}
+
+
+.container .image-card-mw1{
+    position: relative; 
+  }
+  
+  .mwintrotext {
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  
+  .image-card-mw1{
+    position: absolute;
+    height:650px;
+    width:600px;
+    top:1500px;
+    right: 100px;
+    margin-left:780px;
+  }
+  .image-card-mw1 img {
+    width: 100%;
+
+
+}
+
+
+.container .image-card-mw2{
+    position: relative; 
+  }
+  
+  .mwbodytext {
+    position: absolute;
+    top: 2050px;
+    right: 100px;
+    margin-left:780px;
+    
+  }
+  
+  .image-card-mw2{
+    position: absolute;
+    height:550px;
+    width:500px;
+    top:1900px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  .image-card-mw2 img {
+    width: 100%;
+
+
+}
+
+
+.container .image-card-u4ea1{
+    position: relative; 
+  }
+  
+  .u4eatitletext {
+    position: absolute;
+    top: 2450px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  
+  .image-card-u4ea1{
+    position: absolute;
+    height:650px;
+    width:600px;
+    top:2300px;
+    right: 100px;
+    margin-left:780px;
+  }
+  .image-card-u4ea1 img {
+    width: 100%;
+
+
+}
+
+
+.container .image-card-u4ea2{
+    position: relative; 
+  }
+  
+  .u4eabodytext {
+    position: absolute;
+    top: 2850px;
+    right: 100px;
+    margin-left:780px;
+    
+  }
+  
+  .image-card-u4ea2{
+    position: absolute;
+    height:550px;
+    width:500px;
+    top:2700px;
+    left: 100px;
+    margin-right: 780px;
+  }
+  .image-card-u4ea2 img {
+    width: 100%;
+
+
+}
+
+.infoname{
+    text-align:center;    
+    margin-top: 150px;
+}
+
+.abouttext{
+    text-align:center;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.calebpic img, .otherpic img{
+    display: inline-block;
+}
+
+.calebpic img{
+    margin-left: 400px;
+    width: 40%;
+    margin-top: 75px;
+}
+
+.button{
+    text-align:center;    
+    margin-top: 75px;
+}
+
